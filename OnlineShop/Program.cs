@@ -39,7 +39,7 @@ namespace OnlineShop
 
                 if (!dbDefaultData.Admins.Any())
                 {
-                    dbDefaultData.Admins.Add(new Admin("yasin", "abedini", "4421359831", "09106966244", "627926", "admin", dbDefaultData.Roles.First(t => t.Name == "admin")));
+                    dbDefaultData.Admins.Add(new Admin("yasin", "abedini", "0052525250", "09102587496", "0000", "admin", dbDefaultData.Roles.First(t => t.Name == "admin")));
                     dbDefaultData.SaveChanges();
                 }
 
